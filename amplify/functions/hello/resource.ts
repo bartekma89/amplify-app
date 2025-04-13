@@ -6,4 +6,7 @@ export const hello = defineFunction({
   bundling: {
     minify: false,
   },
+  environment: {
+    TABLE_NAME: "products",
+  },
 });
